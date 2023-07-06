@@ -10,3 +10,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.containermain {
+    margin: auto;
+    
+}
+.containermain h1 {
+    text-align: center;
+}
+img{
+    height: 200px;
+    margin: 20px;
+}
