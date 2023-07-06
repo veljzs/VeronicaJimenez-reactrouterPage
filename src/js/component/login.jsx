@@ -21,6 +21,7 @@ const Login = () => {
           onChange={(e) => setName(e.target.value)}
         />
       </label>
+	  <br/><br/>
 	  <label>Enter your email:
         <input
           type="text" 
@@ -28,6 +29,7 @@ const Login = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
       </label>
+	  <br/><br/>
 	  <Link to={"/form"} >Registrarse</Link>
     </form>
   )
